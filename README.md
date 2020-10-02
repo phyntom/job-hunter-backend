@@ -15,7 +15,7 @@ You run this application by issuing this command
 
 If you have nodemon install in your deve environment run it using the following command
 
-### npm run devStart
+#### npm run devStart
 
 After this command the nodejs server should available ready to be queried.
 
