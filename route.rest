@@ -1,0 +1,28 @@
+GET http://localhost:3000/applicant HTTP/1.1
+
+###
+GET http://localhost:3000/applicant/5f76fa4e80a6375823c6387f HTTP/1.1
+
+###
+POST http://localhost:3000/applicant HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName" : "Aimable",
+    "lastName": "RUHUMURIZA",
+    "email":"phyntom@gmail.com",
+    "cvUrl":"http://sample.file-utl.net:34789",
+    "status": "submitted"
+}
+
+###
+DELETE http://localhost:3000/applicant/5f7718f89dde845c6aa8fe9b HTTP/1.1
+
+
+###
+PATCH  http://localhost:3000/applicant/5f7710989dde845c6aa8fe8f HTTP/1.1
+Content-Type: application/json
+
+{
+    "status":"submitted"
+}
